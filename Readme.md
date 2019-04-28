@@ -1,5 +1,4 @@
-# Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
-
+# Учебный проект «Код и Магия» 'Html Academy'
 * Студент: [Alex Zolotoy]
 
 
