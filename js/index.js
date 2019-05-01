@@ -52,5 +52,3 @@ for (var i = 0; i < names.length; i++) {
   // ctx.fillText('You win !!!' 0, 16);
 };
 
-var asdasfd = 21412;
-
