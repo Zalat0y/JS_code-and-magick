@@ -51,3 +51,59 @@ for (var i = 0; i < names.length; i++) {
 
   // ctx.fillText('You win !!!' 0, 16);
 };
+
+
+
+//  events
+
+var setup = document.querySelector('.setup');
+var setupOpen = document.querySelector('.setup-open');
+var setupClose = setup.querySelector('.setup-close');
+
+// setupOpen.addEventListener('click', function () {
+//   setup.classList.remove('hidden');
+
+//   document.addEventListener('keydown', function (evt) {
+//     if (evt.keyCode === 27) {
+//       setup.classList.add('hidden');
+//     }
+//   });
+// });
+
+// setupOpen.addEventListener('keydown', function(evt) {
+//   if (evt.keyCode === 13) {
+//     setup.classList.remove('hidden');
+//   }
+// });
+
+// setupClose.addEventListener('click' function() {
+//   setup.classList.add('hidden');
+// });
+
+// setupClose.addEventListener('keydown', function (evt) {
+//   if (evt.keyCode === 13) {
+//     setup.classList.add('hidden')
+//   }
+// });
+
+setupOpen.addEventListener('click', function () {
+  setup.classList.remove('hidden');
+
+  document.addEventListener('keydown', function (evt) {
+    if (evt.keyCode === 27) {
+      setup.classList.add('hidden');
+    }
+  });
+});
+
+setupOpen.addEventListener('keydown', function(evt) {
+  if (evt.keyCode === 13) {
+    setup.classList.remove('hidden');
+  }
+});
+
+setupClose.addEventListener('click', function () {
+  setup.classList.add('hidden');
+});
+
+// sfasfsaf
